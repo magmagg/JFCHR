@@ -1814,12 +1814,6 @@ class User extends CI_Controller
 			redirect(base_url()."user/view_one_dcs/".$dcsid);
 	}
 
-	function download_dcs_document()
-	 {
-		$docuname = $this->uri->segment(3);
-		$name = 'G:\xampp\htdocs\Thesis\dcsdocs' . '\\' . $docuname;
-		force_download($name, NULL);
-	}
 
 	function delete_hierarchy()
 	{
