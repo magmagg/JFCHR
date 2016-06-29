@@ -1,0 +1,51 @@
+<li class='has-sub' style="float: right;"><a href='#'><span><i class="fa fa-bell fa-fw"></i></span></a>
+    <ul style="float: right; right: 0; left: auto;" class="flip">
+      <li>
+        <a href="#" class="flip">
+          <div>
+            <i class="fa fa-comment fa-fw"></i> New Comment
+           <span class="pull-right text-muted small time">4 minutes ago</span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="flip">
+          <div>
+            <i class="fa fa-twitter fa-fw"></i> 3 New Followers
+            <span class="pull-right text-muted small time">12 minutes ago</span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="flip">
+          <div>
+            <i class="fa fa-envelope fa-fw"></i> Message Sent
+            <span class="pull-right text-muted small time">4 minutes ago</span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="flip">
+          <div>
+            <i class="fa fa-tasks fa-fw"></i> New Task
+            <span class="pull-right text-muted small time">4 minutes ago</span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="flip" style="">
+          <div>
+            <i class="fa fa-upload fa-fw"></i> Server Rebooted
+            <span class="pull-right text-muted small time">4 minutes ago</span>
+          </div>
+        </a>
+      </li>
+      <li class="divider"></li>
+      <li>
+        <a class="text-center flip" href="#">
+          <strong>See All Alerts</strong>
+          <i class="fa fa-angle-right"></i>
+        </a>
+      </li>
+    </ul>
+</li>

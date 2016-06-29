@@ -1,0 +1,169 @@
+@font-face{
+  font-family: 'VAG';
+  src: url('../css/vaground.ttf');
+}
+
+body{
+  font-family: 'Calibri';
+}
+
+div#page-wrapper, body, .container-fluid{
+  	background-image: url('images/9.png');
+  	background-position: center center;
+  	background-attachment: fixed;
+	background-repeat: repeat;
+}
+
+.navbar-default{
+	color: #333; 
+	background-color: #009973;
+}
+
+.navbar{
+	margin-bottom: 0;  
+	border-color: #ddd;
+}
+
+.navbar-header > .navbar-brand,
+.navbar-header > .navbar-brand:hover{
+	color: #fff;
+}
+
+.nav{
+	padding-left: 10%;
+}
+
+ul.nav > li.dropdown > a.dropdown-toggle{
+	color: white;
+}
+
+ul.nav > li.dropdown > a.dropdown-toggle:hover,
+ul.nav > li.dropdown > a.dropdown-toggle:focus{
+	color: rgb(254,117,16);
+}
+
+ul.nav > li.dropdown > a{
+	color: white;
+}
+
+ul.nav > li.dropdown > a:hover,
+ul.nav > li.dropdown > a:focus{
+	color: rgb(254,117,16);
+}
+
+.pull-right{
+	margin-top: -5px;
+}
+
+.page-header{
+	color: #eb9214;
+}
+
+.panel4{
+	height: 100%;
+	width: 80%;
+	position: center;
+	margin: 0px;
+	margin-left: 10%;
+	padding: 0px;
+}
+
+#page-wrapper{
+	margin-left: 12%;
+	margin-right: 12%;
+}
+
+.panel-yellow {
+    border-color: #f0ad4e;
+}
+
+.panel-yellow .panel-heading {
+    border-color: #f0ad4e;
+    color: #fff;
+    background-color: #f0ad4e;
+}
+
+.panel-yellow a {
+    color: #f0ad4e;
+}
+
+.panel-yellow a:hover {
+    color: #df8a13;
+}
+
+.btn-warning {
+  color: #fff;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+
+.btn-warning {
+  color: #fff;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  z-index: 2;
+  color: #fff;
+  cursor: default;
+  background-color: #f0ad4e;
+  border-color: #f0ad4e;
+}
+
+th, .align{
+	text-align: center;
+}
+
+.container-fluid {
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 3%;
+}
+
+/************************************************************************ HEADER */
+.time {
+	padding-top: 3.5%;
+}
+
+#cssmenu {
+  font-family: 'VAG';
+	color: #fff; 
+  background-color: #009973; /* also   b40e16 */
+    background: -moz-linear-gradient(top, #00cc99 0%, #008060 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #00cc99), color-stop(100%, #008060));
+    background: -webkit-linear-gradient(top, #00cc99 0%, #008060 100%);
+    background: -o-linear-gradient(top, #00cc99 0%, #008060 100%);
+    background: -ms-linear-gradient(top, #00cc99 0%, #008060 100%);
+    background: linear-gradient(to bottom, #00cc99 0%, #008060 100%);
+}
+
+#cssmenu > ul > li > a {
+  color: #fbd0d2;
+}
+
+#cssmenu > ul > li.has-sub > a::after {
+  border-top-color: #fbd0d2;
+}
+
+input.form-control, h3.panel-title{
+  color: #2A3F54;
+}
+
+div.login-panel{
+  margin-top: 10%;
+  font-size: 1.15em;
+}
+
+div.panel2{
+  margin-top: 32%;
+}
+
+h3.panel-title{
+  font-size: 1.25em;
+}

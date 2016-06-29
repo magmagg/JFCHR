@@ -1,0 +1,10 @@
+create table [dbo].[tblPolicy1]
+(
+	policy_id int IDENTITY(1,1) PRIMARY KEY,
+	policy_title varchar(50) NOT NULL,
+	policy_content text NOT NULL,
+	policy_footer varchar(50) NOT NULL,
+	policy_name varchar(50) NOT NULL,
+	RowVers rowversion,
+	policy_timestamp datetime NOT NULL CONSTRAINT policy_timestamp_DF DEFAULT CURRENT_TIMESTAMP
+)

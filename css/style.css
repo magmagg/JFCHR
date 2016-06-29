@@ -1,0 +1,43 @@
+@font-face{
+  font-family: 'VAG';
+  src: url('../css/vaground.ttf');
+}
+
+body, .navbar{
+  font-family: 'Calibri';
+  font-size: 17px;
+  background: #009973; /* 2A3F54 */
+}
+
+.side-menu{
+  font-size: 1em;
+}
+
+.site_title > span{
+  font-size: 17px;
+  font-family: 'VAG';
+}
+
+.right_col > span{
+  font-size: 2%;
+}
+
+.right_col > h2{
+  font-size: 5%;
+}
+
+.x_title > h2 {
+  font-size: 1.5em;
+}
+
+footer > div.pull-right {
+  font-size: 15px;
+}
+
+ul.dropdown-menu > li > a{
+  font-size: 12px;
+}
+
+li > a.font {
+  
+}
